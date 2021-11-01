@@ -23,7 +23,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://securitytrails.com/list/apex_domain/*"
+                "*://securitytrails.com/*"
             ],
             "js": [
                 "foreground.js"

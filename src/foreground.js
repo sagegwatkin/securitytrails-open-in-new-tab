@@ -36,7 +36,9 @@ function addOpenInNewTabColumnToDomainList() {
     };
 };
 
-addOpenInNewTabColumnToDomainList();
+if (window.location.pathname.startsWith('/list/apex_domain/')) {
+    addOpenInNewTabColumnToDomainList();
+};
 
 // Set up the port to the service worker, so we can recieve messages when the domain table has been reloaded.
 var serviceWorkerPort = chrome.runtime.connect();
