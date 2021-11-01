@@ -1,0 +1,14 @@
+{
+    "extensionName": {
+        "message": "SecurityTrails Open In New Tab",
+        "description": "Extension name used in manifest.json"
+    },
+    "extensionDescription": {
+        "message": "Adds a button to securitytrails.com subdomain results to open the subdomain in a new tab, instead of opening a SecurityTrails page.",
+        "description": "Extension description used in manifest.json"
+    },
+    "tableHeaderTitle": {
+        "message": "Open",
+        "description": "Text used in the header cell of the new column added to the domains table."
+    }
+}
