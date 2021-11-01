@@ -11,18 +11,22 @@
         "48": "images/securitytrails-48x48.png",
         "128": "images/securitytrails-128x128.png"
     },
-    "host_permissions": [
-        "http://securitytrails.com/list/apex_domain/*",
-        "https://securitytrails.com/list/apex_domain/*"
+    "permissions": [
+        "webRequest"
     ],
+    "host_permissions": [
+        "*://securitytrails.com/_next/data/caae4664/list/apex_domain/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "content_scripts": [
         {
             "matches": [
-                "http://securitytrails.com/list/apex_domain/*",
-                "https://securitytrails.com/list/apex_domain/*"
+                "*://securitytrails.com/list/apex_domain/*"
             ],
             "js": [
-                "open-in-new-tab.js"
+                "foreground.js"
             ],
             "run_at": "document_end"
         }

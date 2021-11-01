@@ -10,5 +10,13 @@
     "tableHeaderTitle": {
         "message": "Open",
         "description": "Text used in the header cell of the new column added to the domains table."
+    },
+    "httpLinkText": {
+        "message": "http",
+        "description": "Display text used for the http anchor link added to the domains table."
+    },
+    "httpsLinkText": {
+        "message": "https",
+        "description": "Display text used for the https anchor link added to the domains table."
     }
 }
