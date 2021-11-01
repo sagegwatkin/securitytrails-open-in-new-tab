@@ -20,7 +20,7 @@ for (const domainRow of domainTableRows) {
     const httpsUrl = 'https://' + domain;
 
     const openCell = document.createElement('td');
-    openCell.innerHTML = `<a class="mr-2" href="${httpUrl}">http</a> <a href="${httpsUrl}">https</a>`;
+    openCell.innerHTML = `<a class="mr-2" href="${httpUrl}" target="_blank">http</a> <a href="${httpsUrl}" target="_blank">https</a>`;
 
     domainRow.prepend(openCell);
 };
