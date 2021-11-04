@@ -8,9 +8,7 @@ Much faster than selecting the domain text, right clicking, and selecting *go to
 
 ### Chrome Web Store
 
-This extension is currently *Pending review* on the Chrome Web Store.
-
-For now, you can follow the [manual installation](#manually) instructions.
+[Download from the Chrome Web Store](https://chrome.google.com/webstore/detail/securitytrails-open-in-ne/mdjpmakmdlidjceihjelejcjgobmldhl).
 
 ### Manually
 
