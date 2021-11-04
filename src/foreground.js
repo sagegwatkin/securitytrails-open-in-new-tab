@@ -37,7 +37,7 @@ function addOpenInNewTabColumnToDomainList() {
 };
 
 if (window.location.pathname.startsWith('/list/apex_domain/')) {
-    addOpenInNewTabColumnToDomainList();
+    setTimeout(addOpenInNewTabColumnToDomainList, 250);         // delay by 250ms in case SecurityTrails UI is still rendering the table. 
 };
 
 // Set up the port to the service worker, so we can recieve messages when the domain table has been reloaded.
@@ -47,6 +47,6 @@ serviceWorkerPort.onMessage.addListener(function (message) {
     if (message.domainsLoaded) {
         console.log('Message from service worker says the domain table has been loaded, adding column.');
 
-        addOpenInNewTabColumnToDomainList();
+        setTimeout(addOpenInNewTabColumnToDomainList, 250);     // delay by 250ms in case SecurityTrails UI is still rendering the table. 
     };
 });
