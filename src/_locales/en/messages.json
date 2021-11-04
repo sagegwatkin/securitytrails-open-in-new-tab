@@ -4,7 +4,7 @@
         "description": "Extension name used in manifest.json"
     },
     "extensionDescription": {
-        "message": "Adds a button to securitytrails.com subdomain results to open the subdomain in a new tab, instead of opening a SecurityTrails page.",
+        "message": "Adds anchor links to the securitytrails.com subdomain results table that let you open the subdomain in a new tab, instead of opening the details for that domain in the SecurityTrails UI.",
         "description": "Extension description used in manifest.json"
     },
     "tableHeaderTitle": {
