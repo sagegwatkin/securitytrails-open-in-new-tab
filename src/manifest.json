@@ -3,7 +3,7 @@
     "description": "__MSG_extensionDescription__",
     "homepage_url": "https://github.com/sagegwatkin/securitytrails-open-in-new-tab",
     "author": "Sage Gwatkin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "manifest_version": 3,
     "default_locale": "en",
     "icons": {
